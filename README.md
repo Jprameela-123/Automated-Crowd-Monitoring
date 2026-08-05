@@ -1,4 +1,4 @@
-# Crowd Anomaly Detection Using CNN, GRU, and ANFIS
+# Crowd Anomaly Detection Using CNN, GRU, and Fuzzy Logic
 
 ## Overview
 The key idea of this work is to identify the abnormal crowd activities in public crowded areas.Generally the surveillance systems capture the video but it cann't detect the events.By this work we implement a feature that  is surveillance systems itself detects the abnormal crowd activities in public areas through advanced deeplearning techniques without human intervention.

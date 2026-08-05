@@ -1,4 +1,4 @@
-# Crowd Anomaly Detection Using CNN, GRU, and Fuzzy Logic
+# Automated Monitoring and Recognition of Unusual Crowd Activities for Public Safety Applications.
 
 ## Overview
 The key idea of this work is to identify the abnormal crowd activities in public crowded areas.Generally the surveillance systems capture the video but it cann't detect the events.By this work we implement a feature that  is surveillance systems itself detects the abnormal crowd activities in public areas through advanced deeplearning techniques without human intervention.
@@ -7,7 +7,7 @@ The application analyzes uploaded crowd videos, classifies crowd behavior as eit
 ---
 
 ## Objectives
-
+Crowd Anomaly Detection Using CNN, GRU, and Fuzzy Logic
 - Detect abnormal crowd behavior from surveillance videos.
 - Extract spatial features using CNN.
 - Learn temporal motion patterns using GRU.
@@ -76,7 +76,7 @@ outputs/
 ---
 ## How to run this project
 step1-Initially prepare the dataset in the required format.
-step2-Train the models and save them.
+step2-Train the models on the dataset consists of normal and abnormal crowd activity videos that are collected from different sources and save them.
 step3-Load the trained model on local computer and run the pipeline.py code in which functions are defined to allign the outputs comes from CNN and GRU models,to combine the scores of CNN and GRU using fusion-fuzzy logic,to create annotations and email alerts.
 step4-Run app.py by using the below steps
 ## Required Python Packages
@@ -123,7 +123,7 @@ These metrics are generated separately for:
 
 - CNN Model
 - GRU Model
-- CNN-GRU-FUZZY Fusion Model
+- CNN-GRU-FUZZY fusion Model
 
 ---
 
